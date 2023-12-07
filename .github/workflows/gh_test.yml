@@ -8,7 +8,6 @@ on:
   push:
     branches: [ "Test" ]
 
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -29,4 +28,4 @@ jobs:
         run: echo Hello, world!
 
       - name: Another script
-       run: echo Hello from another script
+        run: echo Hello from another script
